@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.minus, .plus{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+input{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+}
+
+.single-goods {
+    border: 1px solid black;
+    margin: 10px 0 10px 10px;
+    display: flex;
+}
+
+.text {
+    margin: auto 20px;
+    width: 40%;
+}
+
+.count {
+    display: flex;
+    margin: auto;
+}
+
+.sum-price, .price {
+    display: block;
+    margin: auto;
+    background: #fff;
+}
+
+.count-product {
+
+    background: #fff;
+}
+
+.far {
+    margin: 7px 7px;
+}
+
+.buy {
+   
+    float: right;
+}
+
+.btn-buy {
+    width: 100px;
+    height: 40px;
+    background-color: #d4d3cf;
+    color: #585855;
+    border: 1px solid #585855;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1075px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    form {
+        width: 100%;
+    }
+}

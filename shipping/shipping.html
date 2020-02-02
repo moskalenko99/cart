@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Shipping</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form"> 
+        <form class="form-shipping" action="" method="post">
+            <div class="form-group forename">
+                <div class="name" >Name* </div>
+                <input class="forename" type="name" name="name">
+            </div>
+            <span class="error error-forename" aria-live="polite">Некорректное имя</span>
+            <div class="form-group address">
+                <div class="name" >Address*</div>
+                <input class="address" type="address" name="address">
+            </div>
+            <span class="error error-address" aria-live="polite">Некорректный адрес</span>
+            <div class="form-group number">
+                <div class="name" >Phone</div>
+                <input class="phone" type="number" name="number">
+            </div>
+            <span class="error error-phone" aria-live="polite">Некорректый номер телефона</span>
+            <div class="form-group email">
+                <div class="name" >E-mail</div>
+                <input class="email" type="email" name="email">
+            </div>
+            <span class="error error-email" aria-live="polite">Некорректный емайл</span>
+            <div class="form-group">
+                <div class="name" >Shipping options</div>
+                <div class="delivery">
+                    <select class="select">
+                        <option value="Free shipping" selected>Free shipping</option>
+                        <option value="Express shipping- additional 9.99 €">Express shipping- additional 9.99 €</option>
+                        <option value="Courier shipping - additional 19.99 €">Courier shipping - additional 19.99 €</option>
+                    </select>    
+                </div>
+            </div>
+            <button class="btn" type="submit">PAY</button>
+        </form>
+    </div>
+   
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <script src="/shipping/shipping.js"></script>
+
+</body>
+</html>
