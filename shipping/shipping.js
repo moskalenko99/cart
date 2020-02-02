@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var price = 23;
+    var price = 301;
 
     if(price >= 300){
         $(".select").remove();
